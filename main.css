@@ -1,0 +1,50 @@
+body, input {
+	font: small Arial, Sans-serif;
+	font-size: 18px;
+}
+
+input{
+	outline:none;
+
+}
+
+#header{
+	text-align: -webkit-center;
+	margin-top: 200px;
+}
+
+#logo{
+	margin:auto;
+	background-size: 272px 92px;
+	background: url(googlelogo.png) no-repeat;
+	height: 92px;
+	width: 272px;
+	
+}
+
+#logo_sub {
+    position: relative;
+    color: #4285f4;
+    margin-left: 215px;
+    margin-top: -20px;
+
+}
+
+#search{
+	position: relative;
+	top: 20px;
+
+
+}
+
+#search input {
+    padding-left: 20px;
+    height: 45px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 1px 1px #eee;
+}
+
+#search input:hover, input:focus, input:visited {
+    box-shadow: 0px 3px 8px 3px #e2e2e2;
+
+}
