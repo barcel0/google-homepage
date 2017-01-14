@@ -9,8 +9,40 @@ input{
 
 }
 #header{
+	
 	display: inline-block;
+	font-size:13px;
+
 }
+
+#header a{
+	font-size:13px;
+	color: #4c4c4c;
+	text-decoration: none;
+}
+
+#headerLink{
+	padding:5px;
+}
+
+
+#appsIcon{
+	position:relative;
+	display: inline-block;
+	background:url(appsicon.png) no-repeat;
+	background-size:30px 30px;
+	height:30px;
+	width:30px;
+	
+}
+
+#appsIcon:hover{
+
+	background:url(appsicon2.png) no-repeat;
+
+}
+
+
 
 #content{
 
@@ -73,10 +105,32 @@ input{
 }
 
 #footer{
+	color: #726262;
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
-	height:46px;
+	height:35px;
 	text-align:center;
 	margin-top: 80px;
+	padding-top: 12px;
+	padding-left:20px;
+	padding-right: 40px;
+}
 
+#footer a{
+	color: #726262;
+	text-decoration: none;
+	padding-left:20px;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+	}
+
+.footerRight{
+	float:right;
+
+}
+
+.footerLeft{
+	float:left;
 }
